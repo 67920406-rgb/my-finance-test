@@ -232,8 +232,8 @@ render();
 </script><div id="cloudGate"><div class="cloudCard"><h2>LOBA // 云端财务管家 V1.4</h2><p>使用同一个邮箱账户，电脑与 iPhone 共用云端账本。此版本从空账本开始，不导入旧设备数据。</p><form id="cloudLoginForm"><input autocomplete="username" id="cloudEmail" placeholder="登录邮箱" required="" type="email"/><input autocomplete="current-password" id="cloudPassword" placeholder="登录密码" required="" type="password"/><button id="cloudLoginBtn" type="submit">登录并同步</button></form><p class="err" id="cloudError" role="alert"></p><p style="font-size:12px">仅供已有账户登录；请勿在公共电脑上保持登录。</p></div></div><div aria-live="polite" id="cloudStatus" role="status"></div><script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script>
 /* V1.3 cloud adapter: existing app remains intact, cloud is authoritative. */
-const V13_URL='https://atdtltaxhnpongwrkreo.supabase.co';
-const V13_KEY='sb_publishable_KHjXS-x_76fJsyMfwAJgWQ_834ajqlc';
+const V13_URL='https://iomprrqkztathcvbcjdv.supabase.co';
+const V13_KEY='sb_publishable_Qr0Q1b3iPBL2pg9agCos0Q_3c5T7EL_';
 const cloudGate=document.getElementById('cloudGate'),cloudStatus=document.getElementById('cloudStatus');
 const cloudError=document.getElementById('cloudError');
 let cloudClient=null,cloudUser=null,cloudBusy=false,cloudDirty=false,cloudTimer=null,cloudReady=false,cloudLoading=false;const cloudBaseline={};
